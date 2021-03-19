@@ -18,7 +18,7 @@ if slp == max and sus != numberl and sus != numberm:
          r = s.post(loginurl,data=data,headers=login)
          if '091' in sus:
                                 l = s.get(url2)
-         print(f.GREEN+"Succecful Send ["+str(i)+"] Message For ["+sus+"] Number Phone."+f.WJITE)
+         print(f.GREEN+"Succecful Send ["+str(i)+"] Message For ["+sus+"] Number Phone."+f.WHITE)
          i+=1
 elif sus == numberl or sus == numberm:
 	start()
